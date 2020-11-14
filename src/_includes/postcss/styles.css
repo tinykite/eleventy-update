@@ -1,132 +1,22 @@
-@import "_variables.css";
-@import "_syntax.css";
+/* Settings */
+@import "_settings-color-variables";
+@import "_settings-mixins";
+@import "_settings-breakpoints";
 
-body {
-  margin: 0;
-}
+/* Generic */
+@import "_generic-foundation";
 
-* {
-  box-sizing: border-box;
-}
+/* Elements */
+@import "_elements-layout";
+@import "_elements-typography";
 
-h1 {
-  font-weight: 300;
-}
+/* Components */
+@import "_components-site-nav";
+@import "_components-intro";
+@import "_components-article";
+@import "_components-article-grid";
+@import "_components-media";
+@import "_components-footer";
 
-.introduction {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background: #000;
-  font-family: aw-conqueror-didot, serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #fff;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: 1fr;
-
-  @media (min-width: 600px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  &__title {
-    margin: 0;
-    padding: 0;
-    font-size: 3rem;
-
-    @media (min-width: 600px) {
-      font-size: 7.5rem;
-      grid-row: 1;
-      grid-column: 2;
-    }
-  }
-
-  &__illustration {
-    height: 75vh;
-    width: auto;
-
-    @media (min-width: 600px) {
-      grid-column: 1;
-      grid-row: 1;
-    }
-  }
-}
-
-.word {
-  margin: 0;
-  padding: 0;
-  padding: 75px 0;
-  margin: 0 auto;
-  position: relative;
-
-  @media (min-width: 600px) {
-    height: 80vh;
-    margin: 0;
-    padding: 60px;
-  }
-
-  &__body {
-    display: inline-block;
-    position: relative;
-  }
-
-  &__title {
-    font-family: monotype-grotesque-display-c, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    display: none;
-    padding-bottom: 1rem;
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 3.25rem;
-      left: 0;
-      height: 8px;
-      background: currentColor;
-      width: 100%;
-    }
-
-    @media (min-width: 600px) {
-      display: inline-block;
-      font-size: 2rem;
-    }
-  }
-
-  &__description {
-    font-family: futura-pt, sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    margin: 0;
-    padding: 0;
-    display: none;
-    margin-top: 1rem;
-    position: relative;
-    width: 200px;
-
-    @media (min-width: 600px) {
-      display: block;
-    }
-  }
-
-  &__illustration {
-    display: block;
-    margin: 0 auto;
-    max-width: 75%;
-    height: auto;
-
-    @media (min-width: 600px) {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      height: 60vh;
-      width: auto;
-    }
-  }
-}
+/* Utilities */
+@import "_utilities";
