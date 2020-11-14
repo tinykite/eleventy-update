@@ -1,0 +1,8 @@
+{% extends "layouts/base.html" %} {% block content %}
+<article>
+  <div>
+    <h1>{{ intro.main }}</h1>
+    <p><em>{{ intro.kicker }}</em></p>
+  </div>
+</article>
+{% include "partials/featured-work.html" %} {% endblock %}
