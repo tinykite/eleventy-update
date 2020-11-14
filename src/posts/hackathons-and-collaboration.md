@@ -8,7 +8,7 @@ I participated in my first hackathon last weekend. More specifically, in [Hack T
 
 At Hack the Gap, there’s no intense rivalry, no redbull, and definitely no overnight benders. It’s a supportive environment for taking risks. But there’s still competition: and a day and a half of intense hacking that culminates in an afternoon of 5-minute presentations.
 
-![Photo of participants, mentors, and sponsors of the non-binary and women-oriented hackathon known as Hack the Gap](/assets/img/hackthegap-group.jpg)
+![Photo of participants, mentors, and sponsors of the non-binary and women-oriented hackathon known as Hack the Gap](/images/hackthegap-group.jpg)
 
 Knowing that, I waffled on what I wanted out of the weekend. Did I want to dig deep into visual design and branding? Learn more about product design? Push my web animation skills to the next level?
 
@@ -18,7 +18,7 @@ And I’m so glad I did.
 
 Because as it turns out, meeting several friendly strangers and collectively deciding to hack together the fundamental guts of an interactive education experience — with immensely unfamiliar technology — ended up being the perfect way to better understand the broader relevance of hybrid design and development skills.
 
-![Photo of three members of the Hack The Gap team, Securiosity](/assets/img/hackthegap-whiteboard.jpg)
+![Photo of three members of the Hack The Gap team, Securiosity](/images/hackthegap-whiteboard.jpg)
 
 Throughout the weekend, I tackled a variety of [frontend design](http://bradfrost.com/blog/post/frontend-design/) roles. I helped lead discussions about the value of inclusive design, and how accessibility could be used to guide our approach to visual design; provided ongoing coaching on how to write CSS without the aid of a framework; delivered a frequent stream of unpolished CodePen design experiments for engineers to try to implement; and helped troubleshoot issues when front-end code broke upon compilation or when the implemented version of a page didn’t match an earlier prototype.
 
@@ -35,7 +35,7 @@ It meant championing collaboration and finding ways in which I could help everyo
 
 This is my team, shortly after noon on demo day, hyped up on caffeine and excited to present:
 
-![Photo of all members of the Hack the Gap team, Securiosity](/assets/img/hackthegap-securiosityteam.jpg)
+![Photo of all members of the Hack the Gap team, Securiosity](/images/hackthegap-securiosityteam.jpg)
 
 We honestly didn’t think we were going to win anything. In the end, what we had on our hands was several web pages linked together using React. Beautiful pages — built with an in-depth understanding of cyber security challenges and education theory. And a desire to make it approachable and even entertaining for anyone to learn about how to empower themselves to be less vulnerable online.
 

@@ -14,5 +14,5 @@ In addition to the website, the project has included a limited run of 500 letter
 
 The five designs below were created for a limited run of 500 letterpress coasters, which were printed in West Saint Paul at Old Printing.
 
-![Photo of Coasters](/assets/img/letterpress.png)
-![Photo of Coasters](/assets/img/Coasters.jpg)
+![Photo of Coasters](/images/letterpress.png)
+![Photo of Coasters](/images/Coasters.jpg)
