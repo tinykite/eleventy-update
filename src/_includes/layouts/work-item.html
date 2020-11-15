@@ -1,6 +1,12 @@
 {% extends "layouts/base.html" %} {% block content %}
+<h1 class="article__title article__title--emphasis">{{ title }}</h1>
+<h2 class="article__desc">{{ summary }}</h2>
+{% if image %}<img
+  class="article__image article__image--lead"
+  src="/{{ image }}"
+/>{% endif %}
 <article class="article">
-  <h1 class="article_title">{{ title }}</h1>
   {{ content | safe }}
+  <a href="/"><div class="article__button">Return</div></a>
 </article>
 {% endblock %}
