@@ -1,10 +1,14 @@
 ---
-title: "Hello, world"
+title: "Dakota Sexton is Tiny Kite"
+headline: "Hi, I'm Dakota"
+subtitle: "I’m a designer who codes, and driven by a deep love of type, technology, and illustration."
 layout: "layouts/home.html"
-intro:
-  main: "Dakota Sexton is a designer, frontend developer, & writer who creates imaginative, narrative-driven work."
-  kicker: "Tiny yet fierce. Lover of bikes, coffee science, and antique type"
-featuredWork:
-  title: "Selected work"
-  summary: "Some stuff that should give you an idea of what we’re all about."
 ---
+
+I spent the first several years of my career working for magazines that include _American Craft_, _Monkeybicycle,_ _Paper Darts_, and _Yoga International_. And I can't help but feel incorrigibly excited about storytelling on the web—
+
+But I'm also just as passionate about design systems, accessibility, and performant web animation.
+
+You can find me on [Instagram](https://www.instagram.com/tinykitelab/), [CodePen](https://codepen.io/tinykite/), and [GitHub](https://github.com/tinykite).
+
+Or [contact me](mailto:dakota@tinykitelab.com) by email.

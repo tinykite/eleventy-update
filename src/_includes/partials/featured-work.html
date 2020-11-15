@@ -1,6 +1,8 @@
-<article>
+
+<section class="article-grid">
   {% for item in collections.featuredWork %}
-  <h2>{{ item.data.title }}</h2>
+  <!-- <h2>{{ item.data.title }}</h2> -->
+  <article class="article-grid__item">
   <a href="{{ item.url }}" aria-label="See {{ item.data.title }}">
     <img
       src="{{ item.data.image }}"
@@ -8,5 +10,8 @@
       loading="lazy"
     />
   </a>
+  </article>
   {% endfor %}
 </article>
+
+
