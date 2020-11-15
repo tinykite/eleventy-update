@@ -6,7 +6,7 @@ const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 
-// Code Formatting
+// Syntax formatting
 // https://www.11ty.dev/docs/plugins/syntaxhighlight/
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
@@ -14,6 +14,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 // h/t Phil Hawksworth for how to include PostCSS without a separate build tool
 
 module.exports = (config) => {
+  // Add syntax highlighting
+  config.addPlugin(syntaxHighlight);
   // Add filters
   config.addFilter("dateFilter", dateFilter);
   config.addFilter("w3DateFilter", w3DateFilter);
