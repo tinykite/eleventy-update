@@ -5,13 +5,13 @@
   padding: 0;
   width: 85%;
   margin: 1.5rem auto 0;
-  
-  @include min-width($min-width--md) {
+
+  @media (min-width: 31.25rem) {
     padding-top: 2.75rem;
     grid-template-columns: 1fr 1fr;
   }
 
-  @include min-width($min-width--xl) {
+  @media (min-width: 75rem) {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 90rem;
   }

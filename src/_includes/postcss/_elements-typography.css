@@ -2,11 +2,13 @@ p {
   margin-top: 0.75em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   font-size: 1rem;
   line-height: 1.5;
 
-  @include min-width($min-width--md) {
+  @media (min-width: 31.25rem) {
     font-size: 1.25rem;
   }
 }

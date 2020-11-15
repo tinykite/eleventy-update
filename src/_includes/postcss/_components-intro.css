@@ -6,21 +6,21 @@
   font-weight: normal;
   font-style: normal;
 
-  @include min-width($min-width--xl) {
+  @media (min-width: 75rem) {
     width: 75%;
   }
 
   p:first-child {
     font-size: 1.3125rem;
 
-    @include min-width($min-width--md) {
+    @media (min-width: 31.25rem) {
       font-size: 2rem;
       margin: 0;
     }
   }
 
   p:nth-child(2) {
-    font-family: freight-text-pro,serif;
+    font-family: freight-text-pro, serif;
     font-weight: 400;
     font-style: italic;
     color: #737373;

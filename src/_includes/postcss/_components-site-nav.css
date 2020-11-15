@@ -8,16 +8,16 @@
   width: 85%;
   max-width: 90rem;
 
-  @include min-width($min-width--lg) {
+  @media (min-width: 50rem) {
     flex-direction: row;
   }
 
   &__nav-list {
     list-style: none;
-    display: flex; 
+    display: flex;
     margin: 1rem 0 0;
     padding: 0;
-    font-family: freight-neo-pro,sans-serif;
+    font-family: freight-neo-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
   }

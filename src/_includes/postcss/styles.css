@@ -1,7 +1,5 @@
 /* Settings */
 @import "_settings-color-variables";
-@import "_settings-mixins";
-@import "_settings-breakpoints";
 
 /* Generic */
 @import "_generic-foundation";
