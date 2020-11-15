@@ -1,20 +1,12 @@
-<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="post-list">
-  <div class="[ wrapper ] [ flow flow-space-700 ]">
-    {% if postListHeadline %}
-    <h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
-      {{ postListHeadline }}
-    </h2>
-    {% endif %}
-    <div>
-      <ol class="[ post-list ] [ flow ]">
-        {% for item in postListItems %}
-        <li class="[ post-list__item ] [ leading-tight measure-long ]">
-          <a href="{{ item.url }}" class="post-list__link"
-            >{{ item.data.title }}</a
-          >
-        </li>
-        {% endfor %}
-      </ol>
-    </div>
-  </div>
-</div>
+<article class="article article--longform article--list">
+  {% for item in collections.writing %}
+  <a
+    class="article__link"
+    href="{{ item.url }}"
+    aria-label="See {{ item.data.title }}"
+  >
+    <h2 class="article__title article__title--list">{{ item.data.title }}</h2>
+  </a>
+  <p class="article__desc article__desc--list">{{ item.data.description }}</p>
+  {% endfor %}
+</article>

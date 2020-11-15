@@ -1,5 +1,6 @@
 {% extends "layouts/base.html" %} {% block content %}
-<article>
-  <h1>hi</h1>
+<article class="article">
+  <h1 class="article__title">{{headline}}</h1>
+  {{ content | safe }}
 </article>
-{{ content | safe }} {% endblock %}
+{% endblock %}
