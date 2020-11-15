@@ -1,5 +1,5 @@
 ---
-title: "A more creative approach to learning git"
+title: "A More Creative Approach to Learning Git"
 date: "2020-02-01"
 description: "Reframing git naming conventions, interactive rebasing, and other fundamentals around cooking metaphors."
 ---
