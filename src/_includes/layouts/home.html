@@ -1,12 +1,37 @@
 {% extends "layouts/base.html" %} {% block content %}
-
 <div class="wrapper">
   <article class="article">
     <h1 class="article__title">{{headline}}</h1>
     <p>{{subtitle}}</p>
     {{ content | safe }}
   </article>
-
-  {% include "partials/featured-work.html" %}
+  <section class="article-grid">
+    {% for item in collections.featuredWork %}
+    <article class="article-grid__item">
+      <a href="{{ item.url }}" aria-label="See {{ item.data.title }}">
+        <img
+          src="{{ item.data.image }}"
+          alt="{{ item.data.imageAlt }}"
+          loading="lazy"
+        />
+      </a>
+    </article>
+    {% endfor %}
+  </section>
+  <h2>Writing + Speaking</h2>
+  <h3>2020</h3>
+  {% for item in writing.year_2020 %}
+  <h4>{{item.title}}</h4>
+  <p>
+    <em>{{item.description }}</em> |
+    <a href="{{ item.url }}" aria-label="See {{ item.url_label }}">
+      {{ item.url_label }}</a
+    >
+  </p>
+  {% endfor %}
+  <h3>2019</h3>
+  {% for item in writing.year_2019 %}
+  <h4>{{item.title}}</h4>
+  {% endfor %}
 </div>
 {% endblock %}

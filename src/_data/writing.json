@@ -1,0 +1,43 @@
+{
+  "year_2020": [
+    {
+      "title": "Workshop: Animation with Framer Motion",
+      "description": "Some description",
+      "type": "Workshop | Mpls Jr Devs",
+      "date": "March 10, 2020",
+      "url": "/posts/animation-approaches-i-love/",
+      "url_label": "View Slides"
+    },
+    {
+      "title": "Article: Avoiding Common Web Animation Mistakes",
+      "description": "Some description",
+      "date": "February 1, 2020",
+      "url": "/posts/avoiding-common-web-animation-mistakes/",
+      "url_label": "Read"
+    },
+    {
+      "title": "Article: Avoiding Common Web Animation Mistakes",
+      "description": "Some description",
+      "date": "February 1, 2020",
+      "url": "/posts/avoiding-common-web-animation-mistakes/",
+      "url_label": "Read"
+    },
+    {
+      "title": "Article: A More Creative Approach to Learning Git",
+      "description": "Some description",
+      "date": "February 1, 2020",
+      "url": "/posts/a-more-creative-approach-to-git/",
+      "url_label": "Read"
+    }
+  ],
+  "year_2019": [
+    {
+      "title": "Lightning Talk: Using Intersection Observer with React Hooks",
+      "description": "Some description",
+      "type": "Lightning Talk | JSMN",
+      "date": "October 23, 2019",
+      "url": "/posts/animation-approaches-i-love/",
+      "url_label": "View Slides"
+    }
+  ]
+}

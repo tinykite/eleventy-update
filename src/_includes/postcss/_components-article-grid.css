@@ -2,12 +2,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1.5em;
-  padding: 0;
-
-  margin: 1.5rem auto 0;
 
   @media (min-width: 31.25rem) {
-    padding-top: 2.75rem;
     grid-template-columns: 1fr 1fr;
   }
 
