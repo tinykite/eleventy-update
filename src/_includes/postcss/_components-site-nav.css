@@ -12,12 +12,13 @@
     flex-direction: row;
   }
 
-  /* [data-state="active"] {
+  [data-state="active"],
+  [aria-current="page"] {
     color: #737373;
     text-decoration: none;
     padding: 0 0 1px;
     border-bottom: 2px solid $peach;
-  } */
+  }
 
   &__nav-list {
     list-style: none;
