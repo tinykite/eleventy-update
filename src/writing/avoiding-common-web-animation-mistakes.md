@@ -27,8 +27,8 @@ Some pretty flicker-inducing or otherwise funky things can happen if you try to 
 
 If you’re familiar with CSS transforms, the syntax might look vaguely familiar:
 
-```
-    <polygon transform="translate(65.074074, 14.500000) rotate(-180.000000) translate(-65.074074, -14.500000)" points="65.0740741 0 91.1481481 29 39 29"></polygon>
+```svg
+<polygon transform="translate(65.074074, 14.500000) rotate(-180.000000) translate(-65.074074, -14.500000)" points="65.0740741 0 91.1481481 29 39 29"></polygon>
 ```
 
 Sketch and Illustrator commonly export shapes like this if they aren’t flattened. Which isn’t necessarily bad for static icons. But if unchanged, the above polygon will animate from its initial origin point, not the position it appears at.
@@ -46,16 +46,21 @@ Sometimes, just by adding an explicitly large inline svg (with a width of 1440px
 
 For less complex situations, this can usually be fixed by defining a global rule for all images that prevents them from busting out of the bounds defined by a parent container:
 
-```
-    img, svg {max-width: 100% }
+```css
+img,
+svg {
+  max-width: 100%;
+}
 ```
 
 _Note: this is a pretty nuanced topic. A more in-depth take on the issue is [the CSS Tricks guide to scaling svg](https://css-tricks.com/scale-svg/)._
 
 Other times, the size of an svg is not the problem. Content overflow can also be caused by animating individual shapes to — or from — an off-canvas portion of the webpage. To make sure shapes stay hidden (and don’t unintentionally increase the width of your website), make sure to define the overflow property of the svg or a parent container.
 
-```
-    .generic-element { overflow: hidden }
+```css
+.generic-element {
+  overflow: hidden;
+}
 ```
 
 ## Adding unintentional layout thrashing
