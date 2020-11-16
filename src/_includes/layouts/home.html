@@ -2,9 +2,10 @@
 <div class="wrapper">
   <article class="article">
     <h1 class="article__title">{{headline}}</h1>
-    <p>{{subtitle}}</p>
+    <p class="article__intro">{{subtitle}}</p>
     {{ content | safe }}
   </article>
+  <h2>Personal Projects</h2>
   <section class="article-grid">
     {% for item in collections.featuredWork %}
     <article class="article-grid__item">
@@ -18,20 +19,30 @@
     </article>
     {% endfor %}
   </section>
-  <h2>Writing + Speaking</h2>
-  <h3>2020</h3>
-  {% for item in writing.year_2020 %}
+  <h2>Speaking</h2>
+  {% for item in talks.items %}
   <h4>{{item.title}}</h4>
-  <p>
-    <em>{{item.description }}</em> |
-    <a href="{{ item.url }}" aria-label="See {{ item.url_label }}">
-      {{ item.url_label }}</a
-    >
-  </p>
+  <p><em>{{item.description }}</em></p>
+  <a href="{{ item.url }}" aria-label="See {{ item.url_label }}">
+    View Slides</a
+  >
   {% endfor %}
-  <h3>2019</h3>
-  {% for item in writing.year_2019 %}
-  <h4>{{item.title}}</h4>
+  <h2>Writing</h2>
+  {% for item in collections.featuredWriting %}
+  <a
+    class="article__link"
+    href="{{ item.url }}"
+    aria-label="See {{ item.data.title }}"
+  >
+    <h3>{{ item.data.title }}</h3>
+  </a>
+  <p><em>{{ item.data.description }}</em></p>
   {% endfor %}
+  <a
+    class="article__link"
+    href="{{ item.url }}"
+    aria-label="See {{ item.data.title }}"
+    >Read More</a
+  >
 </div>
 {% endblock %}

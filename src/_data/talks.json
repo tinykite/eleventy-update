@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Workshop: Animation with Framer Motion",
+      "description": "Some description",
+      "type": "Workshop | Mpls Jr Devs",
+      "year": "2020",
+      "date": "March 10, 2020",
+      "url": "/posts/animation-approaches-i-love/"
+    },
+    {
+      "title": "Lightning Talk: Using Intersection Observer with React Hooks",
+      "description": "Some description",
+      "type": "Lightning Talk | JSMN",
+      "year": "2019",
+      "date": "October 23, 2019",
+      "url": "/posts/animation-approaches-i-love/"
+    }
+  ]
+}
