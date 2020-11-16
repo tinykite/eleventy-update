@@ -37,7 +37,7 @@ module.exports = (config) => {
 
   // Returns a collection of writing in reverse date order
   config.addCollection("writing", (collection) => {
-    return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+    return [...collection.getFilteredByGlob("./src/writing/*.md")].reverse();
   });
   return {
     markdownTemplateEngine: "njk",

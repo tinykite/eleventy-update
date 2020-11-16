@@ -1,4 +1,4 @@
 ---
 title: "Writing"
-layout: "layouts/feed.html"
+layout: "layouts/writing.html"
 ---
