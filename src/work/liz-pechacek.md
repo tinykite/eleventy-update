@@ -3,7 +3,7 @@ title: "Liz Pechacek Ceramics"
 displayOrder: 6
 summary: "Identity Design, Web Design & Development"
 image: "images/screenshots/lizpechacek-item-browser.png"
-featured: true
+featured: false
 ---
 
 Liz Pechacek is a Minneapolis-based ceramic artist with a foot in two worlds. She loves the humble intimacy of a mug, and the rich legacy of early historical traditions — especially Mimbres and Neolithic Chinese pottery.

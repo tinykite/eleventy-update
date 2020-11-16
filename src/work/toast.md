@@ -3,7 +3,7 @@ title: "Toast Nostalgia"
 summary: "Illustration, Web Design & Development"
 displayOrder: 5
 image: "images/toast-thumb.png"
-featured: true
+featured: false
 ---
 
 ![Two illustrations of toast](/images/toast-double.png)

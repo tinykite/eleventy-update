@@ -2,7 +2,7 @@
 title: "AEIR"
 summary: "Web Design & Development"
 displayOrder: 3
-featured: true
+featured: false
 image: "images/aer-hero.png"
 ---
 
