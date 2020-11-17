@@ -1,8 +1,12 @@
 .supplemental-group {
   display: grid;
-  grid-template-columns: 45% 45%;
   justify-content: center;
   column-gap: 3rem;
+
+  @media (min-width: 43.75rem) {
+    margin-top: 3rem;
+    grid-template-columns: 45% 45%;
+  }
 }
 
 .supplemental {
