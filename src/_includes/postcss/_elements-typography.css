@@ -14,6 +14,12 @@ pre {
   }
 }
 
+h2 {
+  font-family: freight-neo-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 ul {
   list-style: none;
   margin: 0;

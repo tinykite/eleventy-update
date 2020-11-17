@@ -13,11 +13,11 @@
 
 /* Components */
 @import "_components-site-nav";
-@import "_components-intro";
 @import "_components-article";
-@import "_components-article-grid";
+@import "_components-grid";
 @import "_components-media";
 @import "_components-footer";
+@import "_components-supplemental";
 
 /* Utilities */
 @import "_utilities";

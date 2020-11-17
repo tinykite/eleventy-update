@@ -13,12 +13,3 @@ img {
   max-width: 100%;
   display: block;
 }
-
-.wrapper {
-  width: 85%;
-  margin: 0 auto;
-
-  @media (min-width: 75rem) {
-    max-width: 90rem;
-  }
-}
