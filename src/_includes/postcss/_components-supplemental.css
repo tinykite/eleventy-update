@@ -23,8 +23,14 @@
     text-decoration: none;
 
     &--inline {
-      border-bottom: 2px solid $peach;
+      border-bottom: 2px solid $accent;
     }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   &__list-item {

@@ -121,11 +121,11 @@
       color: inherit;
       font-weight: normal;
       text-decoration: none;
-      border-bottom: 2px solid $peach;
+      border-bottom: 2px solid $accent;
     }
 
     a:hover {
-      background: $peach;
+      background: $accent;
     }
   }
 
