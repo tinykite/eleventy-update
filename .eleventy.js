@@ -24,14 +24,16 @@ module.exports = (config) => {
   config.addPassthroughCopy("./src/archive/");
   // Returns work items, sorted by display order
   // Returns work items, sorted by display order
-  config.addCollection("work", (collection) => {
-    return sortByDisplayOrder(collection.getFilteredByGlob("./src/work/*.md"));
+  config.addCollection("portfolio", (collection) => {
+    return sortByDisplayOrder(
+      collection.getFilteredByGlob("./src/portfolio/*.md")
+    );
   });
 
   // Returns work items, sorted by display order then filtered by featured
-  config.addCollection("featuredWork", (collection) => {
+  config.addCollection("featuredPortfolio", (collection) => {
     return sortByDisplayOrder(
-      collection.getFilteredByGlob("./src/work/*.md")
+      collection.getFilteredByGlob("./src/portfolio/*.md")
     ).filter((x) => x.data.featured);
   });
 

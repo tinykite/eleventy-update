@@ -1,7 +1,8 @@
 {% extends "layouts/base.html" %} {% block content %}
 <h1 class="article__title article__title--emphasis">{{ title }}</h1>
+{% if summary %}
 <h2 class="article__desc">{{ summary }}</h2>
-{% if image %}<img
+{% endif %} {% if image and not collection %}<img
   class="article__image article__image--lead"
   src="/{{ image }}"
 />{% endif %}

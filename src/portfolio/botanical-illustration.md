@@ -1,7 +1,5 @@
 ---
-title: "Animation"
-summary: "Web Design & Development, Copywriting"
-description: "Fill this out"
+title: "Botanical Illustration"
 displayOrder: 3
 featured: true
 image: "images/ame-tall-hero.png"

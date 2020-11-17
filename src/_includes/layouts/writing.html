@@ -1,4 +1,16 @@
-{% extends "layouts/base.html" %} {% block content %}
-<article>{% include "partials/writing-list.html" %}</article>
-
-{% endblock %}
+{% extends "layouts/base.html" %} {% block content %} {% for item in
+collections.writing %}
+<article class="article article--list article--longform">
+  <a
+    class="article__link"
+    href="{{ item.url }}"
+    aria-label="See {{ item.data.title }}"
+  >
+    <h2 class="article__title article__title--list">{{ item.data.title }}</h2>
+  </a>
+  <time class="article__date" datetime="{{ item.data.date | w3DateFilter }}"
+    >{{ item.data.date | dateFilter }}</time
+  >
+  <p class="article__desc article__desc--list">{{ item.data.description }}</p>
+</article>
+{% endfor %} {% endblock %}
