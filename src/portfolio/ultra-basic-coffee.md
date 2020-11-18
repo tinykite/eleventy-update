@@ -83,8 +83,18 @@ I decided to try to make the web just a little bit more weird with a scroll-anim
 
 ## Room for Improvement
 
+The Ultra Basic Coffee website heavily relies on a native browser API called Intersection Observer. It can very performantly trigger animations using an asychronous callback, but I think the key word here is _can_.
+
+After discovering that you can pass more than one `threshold` parameter to an Observer (and because of that, trigger more than one scroll-based update to the same inline svg or other html element) the chaos muppet inside of me decided that it might be fun to see _just how aggressively_ and ridiculously I could update a single animation without noticing visible performance thrashing—
+
+Could I smoothly trigger updates in increments of 0.001 for the page?
+
+In browsers that are _not_ Safari, the results are surprising great.
+
+In the future, there is definitely a lot of room for improvement, and I'd love to figure out how to do scroll-based animation more performantly without relying on third-party libraries.
+
 ## Credits
 
-_Fonts: Avenir, Knockout, Mostra Nuova_
+_Fonts: Antique Olive Nord, Barbour, Carmin v0.1, Input Mono, Macabre v0.1, Knockout, Nostra v1.0_
 
-My Role: Web Development, Illustration, and Animation
+My Role: Web Development, Illustration, Animation + Bad Jokes
