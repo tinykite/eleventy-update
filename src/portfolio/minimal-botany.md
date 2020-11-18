@@ -13,4 +13,4 @@ I have admittedly very little experience printing posters — I'm a self-taught 
 
 Not long after creating some initial poster ideas for this project (earlier in 2020), however, it no longer felt feasible to rent studio time for printing. So for now the project remains digital, and has evolved into a personal challenge to define a personal illustration style focused on simple, geometric depictions of plants.
 
-Several earlier illustrations for this project are also on [Instagram](https://www.instagram.com/tinykitelab/).
+Several early illustrations for this project are on [Instagram](https://www.instagram.com/tinykitelab/).
