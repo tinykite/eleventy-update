@@ -10,6 +10,8 @@ Ultra Basic Coffee is an illustrated guide to the fundamentals of coffee extract
 
 [Visit Website >>](http://ultrabasiccoffee.com)
 
+![Punk house text](/images/punkhouse.png)
+
 ## Inspiration
 
 In early 2019, I accepted a contract role as a design technologist to gain more experience with design systems at a large Minnesota-based financial services company. I felt excited — I'd apprenticed the previous summer at a design-system-focused agency called Sparkbox, and read as much as I could about how to write scaleable CSS with techniques like namespacing, BEM, and ITCSS.
@@ -52,6 +54,8 @@ Meister also helped me prioritize how important different pourover coffee concep
 5. Agitation / Turbulance
 6. Water Quality
 
+![Punk house text](/images/strength.png)
+
 ## Potential Ideas
 
 The conversations I'd had with coffee professionals and friends helped me come up several different ideas — ranging from experimental and creative to more analytical.
@@ -70,6 +74,8 @@ The conversations I'd had with coffee professionals and friends helped me come u
 I knew that there are plenty of websites out there (I had read as many as I could) about how to make better coffee. I didn't know of any interactive online tools that make it easier to understand concepts like strength vs extraction. And I knew from chatting with Counter Culture and Cafe Imports that there was a definite need for them.
 
 But there was one thing that stopped me short of pursuing making them. This whole project had started because I wanted to do more creative things. And happily, a mentor from Sparkbox gave me some pretty wonderful advice — I didn't always have to do hyper-productive, serious things in my free time.
+
+![Aeropress illustration](/images/aeropress-ultrabasic.png)
 
 ## Creative Approach
 
