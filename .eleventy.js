@@ -20,9 +20,10 @@ module.exports = (config) => {
   config.addFilter("dateFilter", dateFilter);
   config.addFilter("w3DateFilter", w3DateFilter);
   // Set directories to pass through to the dist folder
+  config.addPassthroughCopy("./src/files/");
   config.addPassthroughCopy("./src/images/");
   config.addPassthroughCopy("./src/archive/");
-  // Returns work items, sorted by display order
+
   // Returns work items, sorted by display order
   config.addCollection("portfolio", (collection) => {
     return sortByDisplayOrder(
