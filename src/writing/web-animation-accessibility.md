@@ -1,6 +1,6 @@
 ---
 title: "Web Animation and Accessibility Reading List"
-date: "2020-01-07"
+date: "2021-01-07"
 description: "A running list of resources."
 ---
 
