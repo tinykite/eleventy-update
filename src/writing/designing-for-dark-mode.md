@@ -4,7 +4,7 @@ date: "2021-01-12"
 description: "Thinking about the intersection of accessibility and branding while redesigning a dark version of my portfolio."
 ---
 
-I decided to learn to design and develop a dark mode this past week, by iteratively adding it to my own website in small, doable steps. And I was a little surprised by the resources and writing that people have dedicated to design considerations.
+I decided to learn to design and develop a dark mode this past week, by iteratively adding it to my own website in small, doable steps. And I was a little surprised by the resources and writing that people have dedicated to design considerations — there's not a lot.
 
 A friend of mine had mentioned that the css media query for dark mode is (as they like to affectionately call things) pretty snazzy. And it is. A couple of articles down the web development rabbit hole that for me usually involves typing things like `mdn.io/dark mode` and `css tricks dark mode` I was pretty excited. I started to convert all my one-off color choices for my website into a single `postcss` file with namespaced css variables:
 
