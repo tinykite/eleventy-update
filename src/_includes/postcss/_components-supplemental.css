@@ -23,7 +23,7 @@
     text-decoration: none;
 
     &--inline {
-      border-bottom: 2px solid $accent;
+      border-bottom: 2px solid var(--c-primaryAccent);
     }
   }
 

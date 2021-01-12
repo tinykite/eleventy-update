@@ -1,1 +1,23 @@
-$accent: #ffc6ab;
+:root {
+  --c-background: #ffffff;
+  --c-inverseBackground: #272822;
+  --c-primaryText: #272822;
+  --c-secondaryText: #777777;
+  --c-tertiaryText: #545151;
+  --c-inverseText: #ffffff;
+  --c-primaryAccent: #ffc6ab;
+  --c-secondaryAccent: #364883;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-background: #000000;
+    --c-inverseBackground: #ffffff;
+    --c-primaryText: #ffffff;
+    --c-secondaryText: #ffffff;
+    --c-tertiaryText: #ffffff;
+    --c-inverseText: #000000;
+    --c-primaryAccent: #ffffff;
+    --c-secondaryAccent: #ffffff;
+  }
+}

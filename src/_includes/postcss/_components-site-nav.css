@@ -14,10 +14,10 @@
 
   [data-state="active"],
   [aria-current="page"] {
-    color: #737373;
+    color: var(--c-secondaryText);
     text-decoration: none;
     padding: 0 0 1px;
-    border-bottom: 2px solid $accent;
+    border-bottom: 2px solid var(--c-primaryAccent);
   }
 
   &__nav-list {
@@ -31,12 +31,12 @@
   }
 
   &__nav-link {
-    color: #737373;
+    color: var(--c-secondaryText);
     text-decoration: none;
     font-size: 1.125rem;
 
     &:hover {
-      border-bottom: 2px solid $accent;
+      border-bottom: 2px solid var(--c-primaryAccent);
     }
   }
 

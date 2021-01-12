@@ -75,7 +75,7 @@
 
   &__date {
     text-transform: uppercase;
-    color: #777777;
+    color: var(--c-secondaryText);
     font-weight: normal;
     font-family: freight-neo-pro, sans-serif;
     margin: 0.25rem 0;
@@ -91,7 +91,7 @@
     padding: 0;
     line-height: 1.5;
     font-weight: normal;
-    color: #737373;
+    color: var(--c-secondaryText);
     text-align: center;
     font-style: italic;
     font-size: 1.25rem;
@@ -101,7 +101,6 @@
       text-align: left;
       font-size: 1.25rem;
       font-style: normal;
-      color: #000;
       margin-top: 1rem;
     }
   }
@@ -114,11 +113,11 @@
       color: inherit;
       font-weight: normal;
       text-decoration: none;
-      border-bottom: 2px solid $accent;
+      border-bottom: 2px solid var(--c-primaryAccent);
     }
 
     a:hover {
-      background: $accent;
+      background: var(--c-primaryAccent);
     }
   }
 
@@ -130,16 +129,15 @@
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-    color: #364883;
+    color: var(--c-secondaryAccent);
     padding: 0.75em 1.75rem;
-    border: 2px solid #364883;
+    border: 2px solid var(--c-secondaryAccent);
     letter-spacing: 1px;
     transition: background-color 0.1s ease;
 
     &:hover {
       text-decoration: none;
-      color: #fff;
-      background-color: #364883;
+      background-color: var(--c-secondaryAccent);
     }
 
     & a,
@@ -159,7 +157,7 @@
     width: 50%;
 
     &--list {
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid var(--c-secondaryText);
       padding-bottom: 2.5rem;
       width: 45%;
     }

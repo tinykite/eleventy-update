@@ -1,7 +1,7 @@
 footer {
   margin: 5rem 0 2rem;
   text-align: center;
-  color: #545151;
+  color: var(--c-tertiaryText);
   font-family: freight-neo-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -11,10 +11,10 @@ footer {
     color: inherit;
     text-decoration: none;
     padding: 0 0 1px;
-    border-bottom: 2px solid $accent;
+    border-bottom: 2px solid var(--c-primaryAccent);
   }
 
   a:hover {
-    background: $accent;
+    background: var(--c-primaryAccent);
   }
 }

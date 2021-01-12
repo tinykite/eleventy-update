@@ -3,9 +3,11 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: var(--c-background);
+  color: var(--c-primaryText);
 
   ::selection {
-    background-color: $accent;
+    background-color: var(--c-primaryAccent);
   }
 }
 
