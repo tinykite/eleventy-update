@@ -8,8 +8,8 @@
   --c-primaryAccent: #ffc6ab;
   --c-secondaryAccent: #364883;
 }
-
-@media (prefers-color-scheme: dark) {
+/* TODO: Finalize dark color scheme */
+/* @media (prefers-color-scheme: dark) {
   :root {
     --c-background: #000000;
     --c-inverseBackground: #ffffff;
@@ -19,5 +19,5 @@
     --c-inverseText: #000000;
     --c-primaryAccent: #ffffff;
     --c-secondaryAccent: #ffffff;
-  }
-}
+  } 
+} */
