@@ -1,10 +1,12 @@
 ---
 title: "Dakota Sexton is Tiny Kite"
 headline: "Hi, I'm Dakota"
-subtitle: "I’m a designer who codes, and driven by a deep love of type, technology, and illustration."
+subtitle: "I’m a hyper-curious creative driven by a deep love of design, technology, and storytelling."
 layout: "layouts/home.html"
 ---
 
-I spent the first several years of my career working for magazines that include _American Craft_, _Monkeybicycle,_ _Paper Darts_, and _Yoga International_. And I can't help but feel incorrigibly excited about storytelling on the web—
+I went to [art school](https://www.colum.edu/) for fiction writing and spent the first several years of my career at magazines that include _American Craft_, _Monkeybicycle,_ _Paper Darts_, and _Yoga International_. So I can't help but feel excited about exploring how the web can be used to tell meaningful narratives.
 
-But I'm also just as passionate about design systems, accessibility, and performant web animation.
+I currently work as a front-end engineer with a focus on design systems, complex user interactions, and web animation.
+
+In my free time, I often [illustrate plants](https://www.instagram.com/tinykitelab/).
