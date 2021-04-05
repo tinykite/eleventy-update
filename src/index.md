@@ -5,8 +5,8 @@ subtitle: "I’m a hyper-curious creative driven by a deep love of design, techn
 layout: "layouts/home.html"
 ---
 
-I went to a [small art school](https://www.colum.edu/) for fiction writing and spent the first several years of my career at magazines that include _American Craft_, _Monkeybicycle,_ _Paper Darts_, and _Yoga International_. So I can't help but feel excited about exploring how the web can be used to tell meaningful narratives.
+After attending a small [art school](https://www.colum.edu/) for fiction writing, I spent the first several years of my career at magazines that include _American Craft_, _Monkeybicycle,_ _Paper Darts_, and _Yoga International_. I love learning about new ways to tell meaningful narratives on the web: especially hybrid approaches that mix data, design, and interaction into participatory experiences that are accessible to everyone.
 
-I currently work as a front-end engineer with a focus on design systems, complex user interactions, and web animation.
+I currently work as a front-end engineer, with a UI/UX focus that includes in-depth experience with design systems, accessibility, and web animation.
 
-In my free time, I often [illustrate plants](https://www.instagram.com/tinykitelab/).
+And when I'm not coding? I love to spend time creating [minimalist illustrations of plants](https://www.instagram.com/tinykitelab/).
