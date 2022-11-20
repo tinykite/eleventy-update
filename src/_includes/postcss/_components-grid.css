@@ -1,19 +1,22 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1.5em;
+  gap: 4em;
+  margin-top: 1.5rem;
 
   @media (min-width: 31.25rem) {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-.grid__item {
-  position: relative;
+.grid__group-name {
+  margin-top: 3rem;
+  font-size: 2.25rem;
+}
 
-  a {
-    color: inherit;
-  }
+.grid__link {
+  position: relative;
+  display: block;
 
   &::after {
     content: "";
@@ -27,7 +30,7 @@
   }
 
   &:hover {
-    .grid__info {
+    .grid__details {
       opacity: 1;
       transform: translateX(-50%) translateY(-50%);
     }
@@ -38,30 +41,24 @@
   }
 }
 
-.grid__info {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-45%);
-  z-index: 1;
-  text-align: center;
-  opacity: 0;
-  transition-property: opacity transform;
-  transition-duration: 0.3s;
-  transition-delay: 100ms;
-  color: white;
-  font-family: brother-1816, sans-serif;
-  font-weight: 700;
+.grid__title {
+  font-size: 1.25rem;
+  margin: 1.25rem 0 0 0;
   font-style: normal;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  font-family: "Canela Text Regular", serif;
+}
+
+.grid__description {
+  margin: 0.125rem 0 0 0;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .grid__image {
   grid-column: 1;
 }
 
-.grid__item::after,
+.grid__link::after,
 .grid__image {
   transition: opacity 0.3s;
 }

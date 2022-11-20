@@ -5,20 +5,25 @@
     <p class="article__intro">{{subtitle}}</p>
     {{ content | safe }}
   </article>
-  <h2>Portfolio</h2>
+  <h2 class="grid__group-name">Creative Work</h2>
   <section class="grid">
     {% for item in collections.featuredPortfolio %}
     <article class="grid__item">
-      <a href="{{ item.url }}" aria-label="See {{ item.data.title }}">
+      <a
+        href="{{ item.url }}"
+        aria-label="See {{ item.data.title }}"
+        class="grid__link"
+      >
         <img
           class="grid__image"
           src="{{ item.data.image }}"
           alt="{{ item.data.imageAlt }}"
         />
-        <div class="grid__info">
-          <h3>{{ item.data.title }}</h3>
-        </div>
       </a>
+      <h3 class="grid__title">{{ item.data.title }}</h3>
+      <p class="grid__description">
+        An experiment in something or other for something something
+      </p>
     </article>
     {% endfor %}
   </section>
