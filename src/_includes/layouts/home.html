@@ -1,87 +1,88 @@
 {% extends "layouts/base.html" %} {% block content %}
-<div class="wrapper">
-  <article class="article">
-    <h1 class="article__title">{{headline}}</h1>
-    <p class="article__intro">{{subtitle}}</p>
+<div class="hero">
+  <img class="hero__image" src="/images/dakotasexton-headshot.jpg" />
+  <div>
+    <h1 class="hero__title">{{headline}}</h1>
+    <p class="hero__eyebrow">{{eyebrow}}</p>
     {{ content | safe }}
-  </article>
-  <h2 class="grid__group-name">Creative Work</h2>
-  <section class="grid">
-    {% for item in collections.featuredPortfolio %}
-    <article class="grid__item">
-      <a
-        href="{{ item.url }}"
-        aria-label="See {{ item.data.title }}"
-        class="grid__link"
-      >
-        <img
-          class="grid__image"
-          src="{{ item.data.image }}"
-          alt="{{ item.data.imageAlt }}"
-        />
-      </a>
-      <h3 class="grid__title">{{ item.data.title }}</h3>
-      <p class="grid__description">
-        An experiment in something or other for something something
-      </p>
-    </article>
-    {% endfor %}
-  </section>
-  <div class="supplemental-group">
-    <article class="supplemental">
-      <h2 class="supplemental__heading">Speaking</h2>
-      <p class="supplemental__subheading">
-        In 2019 I gave my first Javascript-focused lightning talk, at
-        <a
-          href="https://javascriptmn.com/"
-          class="supplemental__link supplemental__link--inline"
-          >Javascript MN.</a
-        >
-        Shortly afterwards a friend coaxed me into planning a much longer,
-        hour-long talk at
-        <a
-          href="https://mplsjrdevs.com/"
-          class="supplemental__link supplemental__link--inline"
-          >Mpls Jr Devs</a
-        >
-        — again all about how to get a little bit weird with scroll-based
-        animation. My slides for both talks are included below.
-      </p>
-      <ul class="supplemental__list">
-        {% for item in talks.items %}
-        <li class="supplemental__list-item">
-          <a
-            class="supplemental__link"
-            href="{{ item.url }}"
-            aria-label="See {{ item.data.title }}"
-          >
-            <h3 class="supplemental__label">{{item.title}}</h3>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </article>
-    <article class="supplemental">
-      <h2 class="supplemental__heading">Writing</h2>
-      <p class="supplemental__subheading">
-        I love it when technical writing is personal and silly and more
-        concerned with making others feel comfortable — and even hyped — rather
-        than asserting the author as an authority.
-      </p>
-      <ul class="supplemental__list">
-        {% for item in collections.featuredWriting %}
-        <li class="supplemental__list-item">
-          <a
-            class="supplemental__link"
-            href="{{ item.url }}"
-            aria-label="See {{ item.data.title }}"
-          >
-            <h3 class="supplemental__label">{{ item.data.title }}</h3>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </article>
   </div>
+</div>
+<h2 class="grid__group-name">Creative Work</h2>
+<section class="grid">
+  {% for item in collections.featuredPortfolio %}
+  <article class="grid__item">
+    <a
+      href="{{ item.url }}"
+      aria-label="See {{ item.data.title }}"
+      class="grid__link"
+    >
+      <img
+        class="grid__image"
+        src="{{ item.data.image }}"
+        alt="{{ item.data.imageAlt }}"
+      />
+    </a>
+    <h3 class="grid__title">{{ item.data.title }}</h3>
+    <p class="grid__description">
+      An experiment in something or other for something something
+    </p>
+  </article>
+  {% endfor %}
+</section>
+<div class="supplemental-group">
+  <article class="supplemental">
+    <h2 class="supplemental__heading">Speaking</h2>
+    <p class="supplemental__subheading">
+      In 2019 I gave my first Javascript-focused lightning talk, at
+      <a
+        href="https://javascriptmn.com/"
+        class="supplemental__link supplemental__link--inline"
+        >Javascript MN.</a
+      >
+      Shortly afterwards a friend coaxed me into planning a much longer,
+      hour-long talk at
+      <a
+        href="https://mplsjrdevs.com/"
+        class="supplemental__link supplemental__link--inline"
+        >Mpls Jr Devs</a
+      >
+      — again all about how to get a little bit weird with scroll-based
+      animation. My slides for both talks are included below.
+    </p>
+    <ul class="supplemental__list">
+      {% for item in talks.items %}
+      <li class="supplemental__list-item">
+        <a
+          class="supplemental__link"
+          href="{{ item.url }}"
+          aria-label="See {{ item.data.title }}"
+        >
+          <h3 class="supplemental__label">{{item.title}}</h3>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="supplemental">
+    <h2 class="supplemental__heading">Writing</h2>
+    <p class="supplemental__subheading">
+      I love it when technical writing is personal and silly and more concerned
+      with making others feel comfortable — and even hyped — rather than
+      asserting the author as an authority.
+    </p>
+    <ul class="supplemental__list">
+      {% for item in collections.featuredWriting %}
+      <li class="supplemental__list-item">
+        <a
+          class="supplemental__link"
+          href="{{ item.url }}"
+          aria-label="See {{ item.data.title }}"
+        >
+          <h3 class="supplemental__label">{{ item.data.title }}</h3>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
 </div>
 {% endblock %}

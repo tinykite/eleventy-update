@@ -1,3 +1,6 @@
+/* Reset */
+@import "_generic-reset.css";
+
 /* Third-party plugin css */
 @import "_plugins-prism-theme";
 
@@ -13,6 +16,7 @@
 
 /* Components */
 @import "_components-site-nav";
+@import "_components-hero";
 @import "_components-article";
 @import "_components-grid";
 @import "_components-media";

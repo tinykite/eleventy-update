@@ -1,11 +1,10 @@
 .supplemental-group {
   display: grid;
-  justify-content: center;
   column-gap: 4rem;
-  margin-top: 4rem;
+  margin-top: 6.25rem;
 
   @media (min-width: 43.75rem) {
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

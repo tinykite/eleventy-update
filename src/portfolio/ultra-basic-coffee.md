@@ -8,7 +8,7 @@ image: "images/ultrabasic-hero.png"
 
 Ultra Basic Coffee is an illustrated guide to the fundamentals of coffee extraction, and a website that (in 2019) became a kind of personal playground for me to understand scroll-based animation. It was built with React, Framer Motion, Styled Components, and a healthy dose of Intersection Observer.
 
-[Visit Website >>](http://ultrabasiccoffee.com)
+<!-- [Visit Website >>](http://ultrabasiccoffee.com) -->
 
 ![Punk house text](/images/punkhouse.png)
 

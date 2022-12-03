@@ -2,11 +2,11 @@
   --c-background: #ffffff;
   --c-inverseBackground: #272822;
   --c-primaryText: #272822;
-  --c-secondaryText: #777777;
+  --c-secondaryText: #444444;
   --c-tertiaryText: #545151;
   --c-inverseText: #ffffff;
-  --c-primaryAccent: #ffc6ab;
-  --c-secondaryAccent: #364883;
+  /* --c-primaryAccent: #ffc6ab;
+  --c-secondaryAccent: #364883; */
 }
 /* TODO: Finalize dark color scheme */
 /* @media (prefers-color-scheme: dark) {

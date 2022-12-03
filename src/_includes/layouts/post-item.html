@@ -8,7 +8,9 @@
     class="article__image article__image--lead"
     src="/{{ image }}"
   />{% endif %}
-  <p class="article__body">{{ content | safe }}</p>
+  <div>
+    <p class="article__body">{{ content | safe }}</p>
+  </div>
   <a href="/"><div class="article__button">Return</div></a>
 </article>
 {% endblock %}

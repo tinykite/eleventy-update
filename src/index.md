@@ -1,12 +1,8 @@
 ---
 title: "Dakota Sexton is Tiny Kite"
-headline: "Hi, I'm Dakota"
-subtitle: "I’m a hyper-curious creative driven by a deep love of design, technology, and storytelling."
+headline: "Hi, I'm Dakota."
+eyebrow: "A front-end engineer and multidisciplinary creative with a focus on design and accessibility."
 layout: "layouts/home.html"
 ---
 
-After attending a small [art school](https://www.colum.edu/) for fiction writing, I spent the first several years of my career at magazines that include _American Craft_, _Monkeybicycle,_ _Paper Darts_, and _Yoga International_. I love learning about new ways to tell meaningful narratives on the web: especially hybrid approaches that mix data, design, and interaction into participatory experiences that are accessible to everyone.
-
-I currently work as a front-end engineer, with a UI/UX focus that includes in-depth experience with design systems, accessibility, and web animation.
-
-And when I'm not coding? I love to spend time creating [minimalist illustrations of plants](https://www.instagram.com/tinykitelab/).
+I have 5+ years of experience with UI/UX development. I’m also an experienced writer and editor—with several experience working at magazines that include American Craft, Monkeybicycle, Paper Darts, and Yoga International. And in my free time, I create storytelling-driven websites and minimalist illustrations.
