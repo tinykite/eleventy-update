@@ -1,8 +1,8 @@
 ---
 title: "Dakota Sexton is Tiny Kite"
 headline: "Hi, I'm Dakota."
-eyebrow: "A front-end engineer and multidisciplinary creative with a focus on design and accessibility."
+eyebrow: "A front-end engineer and multidisciplinary artist who cares about design, accessibility, and storytelling."
 layout: "layouts/home.html"
 ---
 
-I have 5+ years of experience with UI/UX development. I’m also an experienced writer and editor—with several experience working at magazines that include American Craft, Monkeybicycle, Paper Darts, and Yoga International. And in my free time, I create storytelling-driven websites and minimalist illustrations.
+For the last 4+ years, I've advocated for inclusive design patterns and built intuitive, modern web applications. I'm always open to chatting about design systems, HTML/CSS, or any other aspect of front-end development.

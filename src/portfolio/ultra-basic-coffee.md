@@ -1,6 +1,7 @@
 ---
 title: "Ultra Basic Coffee"
-summary: "Web Development, Illustration, and Animation"
+summary: "An animated, irreverent guide to pourover coffee
+and the fundamentals of coffee science."
 displayOrder: 1
 featured: true
 image: "images/ultrabasic-hero.png"

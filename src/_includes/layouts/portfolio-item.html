@@ -2,7 +2,7 @@
 <article class="article">
   <h1 class="article__title article__title--emphasis">{{ title }}</h1>
   {% if summary %}
-  <h2 class="article__desc">{{ summary }}</h2>
+  <p class="article__desc">{{ summary }}</p>
   {% endif %} {% if image and not collection %}<img
     class="article__image article__image--lead"
     src="/{{ image }}"
@@ -10,6 +10,6 @@
 
   {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
   
-  <a href="/"><div class="article__button">Return</div></a>
+  <a href="/" class="article__button">Return</a>
 </article>
 {% endblock %}

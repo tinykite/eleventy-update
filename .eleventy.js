@@ -39,12 +39,12 @@ module.exports = (config) => {
   });
 
   config.addCollection("featuredWriting", (collection) => {
-    return [...collection.getFilteredByGlob("./src/writing/*.md").slice(2)];
+    return [...collection.getFilteredByGlob("./src/blog/*.md").slice(2)];
   });
 
   // Returns a collection of writing in reverse date order
-  config.addCollection("writing", (collection) => {
-    return [...collection.getFilteredByGlob("./src/writing/*.md")].reverse();
+  config.addCollection("blog", (collection) => {
+    return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
   });
   return {
     markdownTemplateEngine: "njk",
