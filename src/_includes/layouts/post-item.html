@@ -1,8 +1,8 @@
 {% extends "layouts/base.html" %} {% block content %}
 <article class="article article--longform">
   <h1 class="article__title">{{ title }}</h1>
-  <time class="article__date" datetime="{{ date | w3DateFilter }}"
-    >{{ date | dateFilter }}</time
+  <time class="article__date" datetime="{{ dateString }}"
+    >{{ dateString }}</time
   >
   {% if image %}<img
     class="article__image article__image--lead"

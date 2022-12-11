@@ -1,9 +1,7 @@
 {% extends "layouts/base.html" %} {% block content %} {% for item in
 collections.blog %}
 <article class="articleList">
-  <time datetime="{{ item.data.date | w3DateFilter }}"
-    >{{ item.data.date | dateFilter }}</time
-  >
+  <time datetime="{{ item.data.dateString }}">{{ item.data.dateString }}</time>
   <a href="{{ item.url }}">
     <h2>{{ item.data.title }}</h2>
   </a>
