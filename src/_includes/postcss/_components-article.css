@@ -4,6 +4,45 @@
   margin-top: 3rem;
 }
 
+.articleList:first-child {
+  margin-top: 3rem;
+}
+
+.articleList {
+  width: 55ch;
+  margin: 0 auto;
+
+  a,
+  a:visited {
+    color: var(--c-text);
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+
+  time {
+    margin: 0;
+    font-family: monospace;
+  }
+
+  p {
+    margin-top: 0.5rem;
+  }
+
+  h2 {
+    margin: 0.25rem 0 0 0;
+  }
+}
+
+.articleList + * {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+
 .article__title {
   font-size: 2rem;
 }
@@ -20,9 +59,10 @@
 }
 
 .article__date {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 0.25rem;
+  font-family: monospace;
 }
 
 .article > * {
@@ -43,7 +83,7 @@
   color: var(--c-inverseText);
   width: fit-content;
   padding: 1rem 3rem;
-  font-family: "Canela Text Regular", serif;
+  font-family: monospace;
   text-decoration: none;
   margin-top: 3rem;
   border: 3px solid var(--c-inverseText);
@@ -53,5 +93,6 @@
     background: var(--c-primaryBackground);
     color: var(--c-primaryText);
     border: 3px solid var(--c-primaryText);
+    text-decoration: none;
   }
 }

@@ -1,16 +1,12 @@
 {% extends "layouts/base.html" %} {% block content %} {% for item in
 collections.blog %}
-<article>
-  <a
-    class="article__link"
-    href="{{ item.url }}"
-    aria-label="See {{ item.data.title }}"
-  >
-    <h2>{{ item.data.title }}</h2>
-  </a>
+<article class="articleList">
   <time datetime="{{ item.data.date | w3DateFilter }}"
     >{{ item.data.date | dateFilter }}</time
   >
+  <a href="{{ item.url }}">
+    <h2>{{ item.data.title }}</h2>
+  </a>
   <p>{{ item.data.description }}</p>
 </article>
 {% endfor %} {% endblock %}
