@@ -52,12 +52,8 @@
     <ul class="supplemental__list">
       {% for item in talks.items %}
       <li class="supplemental__list-item">
-        <a
-          class="supplemental__link"
-          href="{{ item.url }}"
-          aria-label="See {{ item.data.title }}"
-        >
-          <h3 class="supplemental__label">{{item.title}}</h3>
+        <a class="supplemental__link" href="{{ item.url }}">
+          <span class="supplemental__label">{{item.title}}</span>
         </a>
       </li>
       {% endfor %}
@@ -73,12 +69,8 @@
     <ul class="supplemental__list">
       {% for item in collections.featuredWriting %}
       <li class="supplemental__list-item">
-        <a
-          class="supplemental__link"
-          href="{{ item.url }}"
-          aria-label="See {{ item.data.title }}"
-        >
-          <h3 class="supplemental__label">{{ item.data.title }}</h3>
+        <a class="supplemental__link" href="{{ item.url }}">
+          <span class="supplemental__label">{{ item.data.title }}</span>
         </a>
       </li>
       {% endfor %}

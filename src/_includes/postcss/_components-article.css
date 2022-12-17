@@ -2,6 +2,13 @@
   display: grid;
   grid-template-columns: 1fr min(65ch, 100%) 1fr;
   margin-top: 3rem;
+
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    background: none;
+  }
 }
 
 .articleList:first-child {
@@ -11,17 +18,6 @@
 .articleList {
   width: 55ch;
   margin: 0 auto;
-
-  a,
-  a:visited {
-    color: var(--c-text);
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus {
-    text-decoration: underline;
-  }
 
   time {
     margin: 0;
@@ -34,6 +30,15 @@
 
   h2 {
     margin: 0.25rem 0 0 0;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
 
@@ -59,10 +64,11 @@
 }
 
 .article__date {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 0.25rem;
   font-family: monospace;
+  margin-top: 0.5rem;
 }
 
 .article > * {
