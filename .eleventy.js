@@ -13,6 +13,7 @@ module.exports = (config) => {
   config.addPlugin(syntaxHighlight);
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy("./src/files/");
+  config.addPassthroughCopy("./src/fonts/");
   config.addPassthroughCopy("./src/images/");
   config.addPassthroughCopy("./src/archive/");
 

@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Canela Web";
+  src: url("/fonts/Canela-Regular-Web.woff2") format("woff2"),
+    url("/fonts/Canela-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("/fonts/CanelaDeck-Regular-Web.woff2") format("woff2"),
+    url("/fonts/CanelaDeck-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("/fonts/CanelaDeck-Light-Web.woff2") format("woff2"),
+    url("/fonts/CanelaDeck-Light-Web.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
 body {
   font-family: "freight-text-pro", serif;
 }
@@ -29,8 +56,10 @@ nav,
 h1,
 h2,
 h3 {
-  font-family: "Canela Text Regular", serif;
-  font-weight: normal;
+  font-family: "Canela Deck Web", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
   line-height: 1.125;
 }
 

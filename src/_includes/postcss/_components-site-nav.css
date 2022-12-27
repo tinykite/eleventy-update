@@ -47,13 +47,12 @@
 
   &__logo {
     display: block;
-    height: 3rem;
+    height: 3.5rem;
     width: auto;
     transition: all 1s;
     transition-delay: 100ms;
     &:hover {
-      opacity: 0.8;
-      transform: translateY(-3px) translateX(-3px);
+      background: none;
     }
   }
 }
