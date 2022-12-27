@@ -6,7 +6,7 @@
   flex-direction: column;
   width: 85%;
   max-width: 65rem;
-  margin: 3.125rem auto 0;
+  margin: 5rem auto 0;
 
   @media (min-width: 50rem) {
     flex-direction: row;
@@ -30,7 +30,7 @@
   &__nav-link {
     color: var(--c-primaryText);
     text-decoration: none;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
 
     &:hover {
       border-bottom: 2px solid var(--c-secondaryText);
@@ -47,7 +47,7 @@
 
   &__logo {
     display: block;
-    height: 3rem;
+    height: 3.875rem;
     width: auto;
     &:hover {
       background: none;

@@ -2,7 +2,7 @@
   display: grid;
   align-items: start;
   grid-template-columns: 275px 1fr;
-  grid-column-gap: 3rem;
+  grid-column-gap: 3.5rem;
   margin: 6.25rem 0;
 }
 
@@ -24,11 +24,7 @@
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  margin-top: 0;
-}
-
-.hero p:not(:first-of-type) {
-  width: 85%;
+  margin-top: 0.5rem;
 }
 
 .hero__image {
