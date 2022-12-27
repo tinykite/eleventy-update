@@ -47,10 +47,8 @@
 
   &__logo {
     display: block;
-    height: 3.5rem;
+    height: 3rem;
     width: auto;
-    transition: all 1s;
-    transition-delay: 100ms;
     &:hover {
       background: none;
     }

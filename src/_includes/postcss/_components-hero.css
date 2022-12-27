@@ -1,7 +1,7 @@
 .hero {
   display: grid;
   align-items: start;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 275px 1fr;
   grid-column-gap: 3rem;
   margin: 6.25rem 0;
 }
@@ -9,7 +9,7 @@
 .hero__title {
   font-size: 6.25rem;
   font-weight: normal;
-  line-height: 1.25;
+  line-height: 1.125;
   margin: 0;
   font-family: "Canela Web";
   font-weight: 400;
@@ -24,6 +24,7 @@
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
+  margin-top: 0;
 }
 
 .hero p:not(:first-of-type) {
@@ -32,4 +33,5 @@
 
 .hero__image {
   border-radius: 100%;
+  margin-top: 1.125rem;
 }
