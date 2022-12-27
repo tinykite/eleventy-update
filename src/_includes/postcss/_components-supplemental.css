@@ -27,9 +27,19 @@
     font-size: 1rem;
   }
 
+  &__link {
+    text-decoration: none;
+  }
+
   &__list {
     list-style: none;
-    margin: 1.5rem 0 0 0;
     padding: 0;
+  }
+
+  &__list-item {
+    border-bottom: 1px solid var(--c-tertiaryText);
+    padding: 1rem 0;
+    margin: 0;
+    line-height: 1;
   }
 }
