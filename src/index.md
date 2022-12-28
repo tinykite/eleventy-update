@@ -5,4 +5,4 @@ eyebrow: "A software engineer and multidisciplinary artist who cares about desig
 layout: "layouts/home.html"
 ---
 
-For 4+ years I’ve built intuitive, modern web applications and advocated for inclusive design patterns. I love to chat about any (and every) aspect of web animation, illustration, and HTML/CSS. And, as a former journalist, I care about words as much as code.
+For 4+ years I’ve built intuitive, modern web applications and advocated for inclusive design patterns. I particularly love to chat about web animation, illustration, and HTML/CSS. And, as a former journalist, I care about words as much as code.
