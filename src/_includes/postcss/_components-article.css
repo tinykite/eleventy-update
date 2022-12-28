@@ -1,6 +1,6 @@
 .article {
   display: grid;
-  grid-template-columns: 1fr min(65ch, 100%) 1fr;
+  grid-template-columns: 1fr min(70ch, 100%) 1fr;
   margin-top: 3rem;
 
   a,
@@ -13,6 +13,14 @@
 
 .articleList:first-child {
   margin-top: 3rem;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 }
 
 .articleList {
@@ -49,7 +57,7 @@
 }
 
 .article__title {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .article__title--emphasis {
