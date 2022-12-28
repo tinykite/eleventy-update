@@ -2,13 +2,6 @@
   display: grid;
   grid-template-columns: 1fr min(70ch, 100%) 1fr;
   margin-top: 3rem;
-
-  a,
-  a:visited,
-  a:hover,
-  a:active {
-    background: none;
-  }
 }
 
 .articleList:first-child {
@@ -61,14 +54,18 @@
 }
 
 .article__title--emphasis {
+  font-family: "Canela Web";
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .article__desc {
   font-size: 1.5rem;
+  line-height: 1.25;
   text-align: center;
-  margin-top: 0.75rem;
+  margin-top: 1rem;
+  font-family: "Canela Deck Web";
+  font-weight: 300;
 }
 
 .article__date {
@@ -94,7 +91,6 @@
 
 .article__button {
   background: var(--c-inverseBackground);
-  color: var(--c-inverseText);
   width: fit-content;
   padding: 1rem 3rem;
   font-family: monospace;
@@ -103,10 +99,16 @@
   border: 3px solid var(--c-inverseText);
   font-size: 1.125rem;
 
+  &:link,
+  &:visited,
+  &:active,
+  &:active {
+    color: white;
+  }
+
   &:hover {
     background: var(--c-primaryBackground);
     color: var(--c-primaryText);
     border: 3px solid var(--c-primaryText);
-    text-decoration: none;
   }
 }

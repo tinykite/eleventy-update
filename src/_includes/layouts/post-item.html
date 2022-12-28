@@ -1,5 +1,5 @@
 {% extends "layouts/base.html" %} {% block content %}
-<article class="article article--longform">
+<article class="article">
   <h1 class="article__title">{{ title }}</h1>
   <time class="article__date" datetime="{{ dateString }}"
     >{{ dateString }}</time
@@ -8,9 +8,7 @@
     class="article__image article__image--lead"
     src="/{{ image }}"
   />{% endif %}
-  <div>
-    <p class="article__body">{{ content | safe }}</p>
-  </div>
-  <a href="/"><div class="article__button">Return</div></a>
+  {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
+  <a href="/" class="article__button">Return</a>
 </article>
 {% endblock %}

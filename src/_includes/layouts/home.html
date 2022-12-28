@@ -8,27 +8,25 @@
   </div>
 </div>
 <h2 class="grid__group-name">Creative Work</h2>
-<section class="grid">
+
+<ul class="grid">
   {% for item in collections.featuredPortfolio %}
-  <article class="grid__item">
-    <a
-      href="{{ item.url }}"
-      aria-label="See {{ item.data.title }}"
-      class="grid__link"
-    >
+  <li class="grid__item">
+    <a href="{{ item.url }}" class="grid__imageLink">
       <img
         class="grid__image"
         src="{{ item.data.image }}"
         alt="{{ item.data.imageAlt }}"
       />
     </a>
-    <h3 class="grid__title">{{ item.data.title }}</h3>
+    <a class="grid__title" href="{{item.url }}">{{ item.data.title }}</a>
     <p class="grid__description">
       An experiment in something or other for something something
     </p>
-  </article>
+  </li>
   {% endfor %}
-</section>
+</ul>
+
 <div class="supplemental-group">
   <article class="supplemental">
     <h2 class="supplemental__heading">Speaking</h2>
