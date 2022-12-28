@@ -90,6 +90,7 @@
 }
 
 .article__button {
+  display: block;
   background: var(--c-inverseBackground);
   width: fit-content;
   padding: 1rem 3rem;
