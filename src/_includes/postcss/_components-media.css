@@ -4,11 +4,18 @@
   padding: 2rem 0;
 }
 
+.fluid-video-loom {
+  position: relative;
+  padding-bottom: 63.49206349206349%;
+  height: 0;
+  margin-bottom: 1rem;
+}
+
 .fluid-video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 1.5625rem;
   height: 0;
+  margin-bottom: 1rem;
   iframe {
     position: absolute;
     top: 0;

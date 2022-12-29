@@ -13,15 +13,15 @@ A side project I created, [Ultra Basic Coffee](https://www.ultrabasiccoffee.com/
 
 You can check out some selected animations from the website below, or read the [case study](/portfolio/ultra-basic-coffee/).
 
-<div style="position: relative; padding-bottom: 63.49206349206349%; height: 0;"><iframe src="https://www.loom.com/embed/cd8aa69f163f4c2f943880d3a954269d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div class="fluid-video-loom"><iframe src="https://www.loom.com/embed/cd8aa69f163f4c2f943880d3a954269d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 I thought it might be a bit silly and fun to have the plunger of this Aeropress move up and down based off of scroll direction.
 
-<div style="position: relative; padding-bottom: 63.49206349206349%; height: 0;"><iframe src="https://www.loom.com/embed/87b4900678f84a54878c756ae7319cf2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div class="fluid-video-loom"><iframe src="https://www.loom.com/embed/87b4900678f84a54878c756ae7319cf2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 For the Kalita Wave section, I applied a skew transform to the header (which remains selectable / screen-reader accessible text).
 
-<div style="position: relative; padding-bottom: 63.49206349206349%; height: 0;"><iframe src="https://www.loom.com/embed/6e2b8c266ef54283a97ba3da3d4d5e1c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div class="fluid-video-loom"><iframe src="https://www.loom.com/embed/6e2b8c266ef54283a97ba3da3d4d5e1c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 The French Press features a scroll-driven animation that affects both the French Press plunger and the text itself.
 
