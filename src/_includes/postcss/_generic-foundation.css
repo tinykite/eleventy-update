@@ -16,3 +16,15 @@ img {
   max-width: 100%;
   display: block;
 }
+
+pre {
+  margin-top: 1rem;
+}
+
+iframe {
+  margin: 1rem auto 0;
+}
+
+iframe + p {
+  margin-top: 1rem;
+}
