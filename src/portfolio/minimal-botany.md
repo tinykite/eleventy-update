@@ -1,6 +1,6 @@
 ---
 title: "Minimal Botany"
-summary: "Illustration"
+summary: "How much can you abstract a flower before it's truly unrecognizeable?"
 displayOrder: 4
 featured: true
 collection: false

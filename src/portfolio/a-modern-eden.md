@@ -1,6 +1,6 @@
 ---
 title: "A Modern Eden"
-summary: "Web Design & Development, Copywriting"
+summary: "Animation, storytelling, and whimsy for a modern menagerie of children's toys."
 description: "Fill this out"
 displayOrder: 2
 featured: true

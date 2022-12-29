@@ -1,6 +1,6 @@
 ---
 title: "Web Animation"
-summary: "Miscellaneous experiments from past projects"
+summary: "Miscellaneous experiments from past projects."
 displayOrder: 3
 featured: true
 collection: true

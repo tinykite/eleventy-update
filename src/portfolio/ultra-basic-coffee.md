@@ -1,7 +1,6 @@
 ---
 title: "Ultra Basic Coffee"
-summary: "An animated, irreverent guide to pourover coffee
-and the fundamentals of coffee science."
+summary: "An irreverent guide to making pourover coffee — with humor, scrollytelling, and helpful advice."
 displayOrder: 1
 featured: true
 image: "images/ultrabasic-hero.png"
