@@ -20,7 +20,7 @@
   &__subheading {
     margin: 1rem 0 0 0;
     font-size: 1rem;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--c-primaryText);
   }
 
   &__label {
