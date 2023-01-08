@@ -1,18 +1,22 @@
 .supplemental-group {
   display: grid;
   column-gap: 4rem;
-  margin-top: 6.25rem;
 
   @media (min-width: 43.75rem) {
+    margin-top: 3rem;
     grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 62.5rem) {
+    margin-top: 6.25rem;
   }
 }
 
 .supplemental {
   &__heading {
-    font-size: 2.25rem;
-
+    font-size: 2rem;
     @media (min-width: 43.75rem) {
+      font-size: 2.25rem;
       margin: 0;
     }
   }
