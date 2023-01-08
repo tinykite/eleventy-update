@@ -1,6 +1,10 @@
 {% extends "layouts/base.html" %} {% block content %}
 <div class="hero">
-  <img class="hero__image" src="/images/dakotasexton-headshot.jpg" />
+  <img
+    class="hero__image"
+    src="/images/dakotasexton-headshot.jpg"
+    alt="Headshot of Dakota Sexton, wearing glasses, a black beanie, and a blue button-up shirt covered in flamingoes"
+  />
   <div>
     <h1 class="hero__title">{{headline}}</h1>
     <p class="hero__eyebrow">{{eyebrow}}</p>
@@ -13,10 +17,12 @@
   {% for item in collections.featuredPortfolio %}
   <li class="grid__item">
     <a href="{{ item.url }}" class="grid__imageLink">
+      <span class="u-visually-hidden">{{ item.data.title }}</span>
       <img
         class="grid__image"
         src="{{ item.data.image }}"
         alt="{{ item.data.imageAlt }}"
+        aria-hidden="true"
       />
     </a>
     <a class="grid__title" href="{{item.url }}">{{ item.data.title }}</a>
