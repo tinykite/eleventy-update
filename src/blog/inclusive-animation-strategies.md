@@ -1,5 +1,5 @@
 ---
-title: "How to Pursue Inclusive Web Animation"
+title: "Guidelines for Inclusive Web Animation"
 date: "2022-09-08"
 description: "A short guide to how to spark joy, responsibly."
 ---
