@@ -8,7 +8,7 @@ When considering animating a portion of a website or web application, always try
 
 And importantly, how might animation accidentally get in the way?
 
-A website with animations that support, rather than distract, from high-level user goals will always have the potential to impact someone's experience much more profoundly than animations driven by an ambiguous desire to spark joy.
+A website with animations that support, rather than distract, from high-level user goals will always have the potential to impact someone's experience much more profoundly than animations driven by more ambiguous goals.
 
 The Nielsen/Norman group has written more in-depth about this, and the impact of good UX in animation, in their article [A Theory of User Delight: Why Usability Is the Foundation for Delightful Experiences](https://www.nngroup.com/articles/theory-user-delight/) .
 
@@ -77,7 +77,7 @@ It's also important to note that any animation can be distracting. It’s not ju
 
 ### But what about prefers-reduced-motion?
 
-[Prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) is a CSS media query that detects whether or not an OS-level setting has been toggled. It's important to talk about, but if Postlight's approach begins with creating the most exciting animation for "ideal" users and then tacking on an additional bit of CSS at the end that disables it for a subset of individuals who know and use the "reduced motion" setting, what we are doing is not particularly inclusive.
+[Prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) is a CSS media query that detects whether or not an OS-level setting has been toggled. It's important to talk about, but if your approach begins with creating the most exciting animation for "ideal" users and then tacking on an additional bit of CSS at the end that disables it for a subset of individuals who know and use the "reduced motion" setting, what we are doing is not particularly inclusive.
 
 #### WCAG Compliance
 
