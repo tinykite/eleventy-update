@@ -86,6 +86,10 @@ img + p {
   margin-top: 2.125rem;
 }
 
+strong {
+  display: block;
+}
+
 h3 {
   font-size: 1.25rem;
   margin-top: 1.5rem;
