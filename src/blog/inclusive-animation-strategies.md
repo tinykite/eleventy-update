@@ -1,7 +1,7 @@
 ---
 title: "Guidelines for Inclusive Web Animation"
 date: "2022-09-08"
-description: "A short guide to how to spark joy, responsibly."
+description: "A short primer on how to spark joy, responsibly."
 ---
 
 When considering animating a portion of a website or web application, always try to consider user goals first. What does someone need to accomplish? How will animation help them accomplish that goal, or reassure them they are making progress?

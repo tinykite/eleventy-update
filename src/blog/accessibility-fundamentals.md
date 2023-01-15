@@ -1,7 +1,7 @@
 ---
 title: "Web Accessibility Fundamentals"
 date: "2022-07-26"
-description: "A short primer on how to start learning."
+description: "A short primer on how to incorporate inclusive thinking into your web development practice."
 ---
 
 Learning about accessibility (often abbreviated to just a11y) is an incremental process. It takes time and intentional practice to cultivate an inclusive mindset towards web development — and more effort to understand how to incorporate that mindset into the development of common UI design patterns.
