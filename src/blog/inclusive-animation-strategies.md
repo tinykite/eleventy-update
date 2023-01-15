@@ -26,8 +26,7 @@ If you don't know how to improve upon an animation that already appears sluggish
 
 ### Javascript Animation (2D)
 
-#### requestAnimationFrame API (Older)
-
+**requestAnimationFrame API (Older)**
 A common way to animate elements on a page with Javascript is with the [`requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame "requestAnimationFrame()") API.
 
 Using rAF, developers can create a callback method that is called before the next repaint of a page. By calling the same function — that iteratively updates the same properties with progressively increasing parameters — an element can be effectively animated across the page.
@@ -36,8 +35,7 @@ According to MDN documentation, rAF is considered more efficient than similar me
 
 _Note:_ It's a common misconception that rAF always runs at a consistent rate of 60fps. By default, the rate is non-deterministic and callbacks will run on every frame that the browser is ready to perform a paint operation, which may be much faster than expected. This can be improved with a timing function.
 
-#### Web Animations API
-
+**Web Animations API**
 The Web Animations API promises to replace the need for rAF, and provide a much more streamlined way to orchestrate complex animations.
 
 Support used to be mediocre, at best. But all that has recently changed —
@@ -79,7 +77,7 @@ It's also important to note that any animation can be distracting. It’s not ju
 
 [Prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) is a CSS media query that detects whether or not an OS-level setting has been toggled. It's important to talk about, but if your approach begins with creating the most exciting animation for "ideal" users and then tacking on an additional bit of CSS at the end that disables it for a subset of individuals who know and use the "reduced motion" setting, what we are doing is not particularly inclusive.
 
-#### WCAG Compliance
+### WCAG Compliance
 
 - A method must be provided to pause, stop, or hide any media content that begins playing automatically and which lasts 5 seconds or more.
 - All content and features within parallax scrolling content must be accessible by keyboard.
