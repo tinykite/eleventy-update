@@ -61,13 +61,13 @@
       asserting the author as an authority.
     </p>
     <ul class="supplemental__list">
-      {% for item in collections.featuredWriting %}
+      {% for item in collections.blog %} {% if loop.index0 < 8 %}
       <li class="supplemental__list-item">
         <a class="supplemental__link" href="{{ item.url }}">
           <span class="supplemental__label">{{ item.data.title }}</span>
         </a>
       </li>
-      {% endfor %}
+      {% endif %} {% endfor %}
     </ul>
   </article>
 </div>
