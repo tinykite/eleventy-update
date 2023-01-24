@@ -1,7 +1,7 @@
 ---
 title: "Dakota Sexton is Tiny Kite"
 headline: "Hi, I’m Dakota."
-eyebrow: "A software engineer and artist who cares about design, accessibility, and storytelling."
+eyebrow: "A software engineer and interdisciplinary artist who cares about design, accessibility, and storytelling."
 layout: "layouts/home.html"
 ---
 
