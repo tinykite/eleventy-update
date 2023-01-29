@@ -4,6 +4,8 @@ date: "2022-07-26"
 description: "A short primer on how to incorporate inclusive thinking into your web development practice."
 ---
 
+_Note: this was originally written for the [Postlight](https://postlight.com/) engineering knowledge base._
+
 Learning about accessibility (often abbreviated to just a11y) is an incremental process. It takes time and intentional practice to cultivate an inclusive mindset towards web development — and more effort to understand how to incorporate that mindset into the development of common UI design patterns.
 
 A very common pain point for anyone who wants to learn more about web accessibility is that the most well-known, authoritative source on accessibility compliance — [WCAG](https://www.w3.org/WAI/WCAG21/quickref/) — is not easily readable. Each of its individual requirements read like boilerplate legal jargon.

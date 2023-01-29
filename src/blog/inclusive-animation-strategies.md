@@ -4,6 +4,8 @@ date: "2022-09-08"
 description: "A short primer on how to spark joy, responsibly."
 ---
 
+_Note: this was originally written for the [Postlight](https://postlight.com/) engineering knowledge base, based on a lighting talk on inclusive animation._
+
 When considering animating a portion of a website or web application, always try to consider user goals first. What does someone need to accomplish? How will animation help them accomplish that goal, or reassure them they are making progress?
 
 And importantly, how might animation accidentally get in the way?
