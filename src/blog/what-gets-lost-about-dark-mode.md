@@ -2,6 +2,7 @@
 title: "What Gets Lost About Dark Mode"
 date: "2023-01-14"
 description: "My personal perspective on the sometimes maligned, much-debated feature."
+draft: true
 ---
 
 When Github released their dark mode in 2021, there were a lot of hot takes in community-oriented Slack channels I followed. Some of them were exuberant. Some of them were a (tad) mean-spirited. Some of them questioned why Github needed to prioritize such a seemingly frivolous feature ahead of other meaningful improvements: especially when dark mode is so frequently regarded as an immensely difficult thing to bolt-on to an existing product.

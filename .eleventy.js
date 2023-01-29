@@ -17,7 +17,19 @@ module.exports = (config) => {
   config.addPassthroughCopy("./src/images/");
   config.addPassthroughCopy("./src/archive/");
 
+  // We'll use this to exclude drafts from any collection
+  config.addFilter(
+    "excludeByFrontMatter",
+    function (collection = [], frontMatterItem = "") {
+      if (!frontMatterItem) {
+        return collection;
+      }
+      return collection.filter((item) => !item.data[frontMatterItem]);
+    }
+  );
+
   // Returns work items, sorted by display order
+  // TODO: Decide if there's any benefit in keeping this, if it won't be rendered
   config.addCollection("portfolio", (collection) => {
     return sortByDisplayOrder(
       collection.getFilteredByGlob("./src/portfolio/*.md")
@@ -25,6 +37,7 @@ module.exports = (config) => {
   });
 
   // Returns work items, sorted by display order then filtered by featured
+  // Used by homepage
   config.addCollection("featuredPortfolio", (collection) => {
     return sortByDisplayOrder(
       collection.getFilteredByGlob("./src/portfolio/*.md")

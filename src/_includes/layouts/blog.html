@@ -1,5 +1,5 @@
 {% extends "layouts/base.html" %} {% block content %} {% for item in
-collections.blog %}
+collections.blog | excludeByFrontMatter("draft") %}
 <article class="articleList">
   <time datetime="{{ item.data.dateString }}">{{ item.data.dateString }}</time>
   <a href="{{ item.url }}">
