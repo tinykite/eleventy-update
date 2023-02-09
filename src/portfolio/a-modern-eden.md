@@ -1,6 +1,6 @@
 ---
 title: "A Modern Eden"
-summary: "Animation, storytelling, and whimsy for a modern menagerie of children's toys."
+summary: "Animation, storytelling, and whimsy for a modern menagerie"
 description: "Fill this out"
 displayOrder: 2
 featured: true

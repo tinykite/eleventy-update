@@ -51,30 +51,10 @@
 }
 
 .grid__description {
-  padding-top: 1.25rem;
   position: relative;
-  font-size: 1rem;
-  margin: 0.25rem auto 0;
-  text-align: center;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: calc(0.5rem + 1px);
-    width: 40%;
-    left: 30%;
-    height: 1px;
-    border-bottom: 1px solid #ccc;
-  }
-
-  @media (min-width: 43.75rem) {
-    width: 80%;
-
-    &::before {
-      left: 25%;
-      width: 50%;
-    }
-  }
+  font-size: 1.125rem;
+  line-height: 1.25;
+  margin-top: 0.5rem;
 }
 
 .grid__title {
@@ -88,7 +68,6 @@
   color: inherit;
   margin-top: 1.25rem;
   text-decoration: none;
-  text-align: center;
 
   &:hover {
     text-decoration: underline;
