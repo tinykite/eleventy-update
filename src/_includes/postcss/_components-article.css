@@ -100,9 +100,8 @@
 }
 
 .article__date {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: rgba(0, 0, 0, 0.6);
-  margin-top: 0.25rem;
   font-family: monospace;
   margin-top: 0.5rem;
 }
