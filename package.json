@@ -31,6 +31,8 @@
     "precss": "^4.0.0"
   },
   "devDependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.6"
   }
 }

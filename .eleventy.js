@@ -4,6 +4,16 @@ const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 // Syntax formatting
 // https://www.11ty.dev/docs/plugins/syntaxhighlight/
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const markdownIt = require("markdown-it");
+const markdownItAttrs = require("markdown-it-attrs");
+
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true,
+};
+
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
 
 // CSS compilation relies on PostCSS config, in css/styles.11ty.js
 // h/t Phil Hawksworth for how to include PostCSS without a separate build tool
@@ -11,6 +21,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = (config) => {
   // Add syntax highlighting
   config.addPlugin(syntaxHighlight);
+
+  config.setLibrary("md", markdownLib);
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy("./src/files/");
   config.addPassthroughCopy("./src/fonts/");
