@@ -4,8 +4,6 @@ date: "2013-06-24"
 description: "Chatting with local Minneapolis poet Cole Sarar about her desire to take poetry out of lit mags and into physical locations around the places she calls home."
 ---
 
-_Note: This interview originally appeared in [Paper Darts](http://paperdartsmagazine.com/blog/2013/6/24/interview-cole-sarar-of-ring-ring-poetry.html)._
-
 Do literary events usually involve poets whispering sweet nothings into your ear? If you answered no just now, hang tight. Maybe pull out your cell phone. For a good time, you can call 612-223-POEM. It’s cheap. And just about as discreet as holding your cell phone to your ear in a public park—or passing the librarians at the circulation desk of the Franklin Avenue Library in Minneapolis—ever gets.
 
 The hotline in question, [Ring Ring Poetry](http://ringringpoetry.com/), is a project of local Minneapolis poet Cole Sarar. After receiving a VERVE grant hosted by Intermedia Arts, she set out to “broadcast” two poems a week on the hotline—between May 2 and June 28—in collaboration with twelve (and counting) other poets.
@@ -57,3 +55,5 @@ PD: Her focus on using gaming as a semi-covert method to create social change or
 CS: Exactly. That was what I really wanted out of it. To promote this idea that the space and the poetry, together, inform your understanding of each other. That if someone writes about an invisible building—that was once on a certain block but is no longer there—that you will start seeing that building or thinking about that building whenever you walk by or maybe you have to look it up.
 
 When Dobby [Gibson] mentions a bunch of old poets who talk about Minneapolis [...] it makes you go, like, “WHAT?” and you look it up. And you find something more about a place, and suddenly forever your memory of that place is more physical.
+
+_This interview originally appeared in [Paper Darts](http://paperdartsmagazine.com/blog/2013/6/24/interview-cole-sarar-of-ring-ring-poetry.html)._
