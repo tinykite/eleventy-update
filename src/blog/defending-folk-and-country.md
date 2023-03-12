@@ -1,7 +1,7 @@
 ---
 title: "Interview: Defending Folk (and Country) with Radio K's Mountain Connection"
 date: "2014-02-20"
-description: "Idefend country; if folk is dead; forgotten women musicians of the '50s, ’60s and ’70s; and more"
+description: "I chat with two lovely college radio hosts about defending country; if folk is dead; and forgotten women musicians of the '50s, ’60s and ’70s."
 ---
 
 On any given day, student DJs at the University of Minnesota’s Radio K station are giving listeners “creamy filling” cultural commentary that might or might not include deadpan weather reports and even more deadpan unsolicited advice to angry sports fans. They may also be mispronouncing band names. (It’s one of their most heavily-marketed selling points, actually: Radio K. Mispronouncing band names since 1993.)
