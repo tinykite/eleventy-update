@@ -7,3 +7,8 @@
   overflow: hidden;
   white-space: nowrap;
 }
+
+.u-half {
+  width: 50%;
+  margin: 0 auto;
+}
