@@ -5,8 +5,8 @@
   --c-secondaryText: #444444;
   --c-tertiaryText: #dadada;
   --c-inverseText: #ffffff;
-  /* --c-primaryAccent: #ffc6ab;
-  --c-secondaryAccent: #364883; */
+  --c-primaryAccent: #ffc6ab;
+  /* --c-secondaryAccent: #364883;  */
 }
 /* TODO: Finalize dark color scheme */
 /* @media (prefers-color-scheme: dark) {
