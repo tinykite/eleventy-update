@@ -1,7 +1,7 @@
 ---
 title: "Dakota Sexton is Tiny Kite"
 headline: "Hi, I’m Dakota."
-eyebrow: "A front-end engineer and interdisciplinary artist who cares about design, data, and storytelling."
+eyebrow: "A front-end engineer and interdisciplinary artist who cares about design, data visualization, and storytelling."
 layout: "layouts/home.html"
 ---
 
