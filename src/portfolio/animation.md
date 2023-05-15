@@ -2,7 +2,7 @@
 title: "Web Animation"
 summary: "Miscellaneous experiments from past projects"
 displayOrder: 3
-featured: true
+featured: false
 collection: true
 image: "images/toast-recolored.png"
 ---
