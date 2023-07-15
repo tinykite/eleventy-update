@@ -22,12 +22,15 @@ To evoke the violent, messy drama of a couple on the run, we reached out to illu
 To convey a sense of moderness, I then overlaid the drawings with simple, neon shapes — many resembling the abstracted form of a road.
 
 ![Saint Helens Dreams poem spread](/images/amoratorium_booksample_01_800.jpg)
+
 A strict, modular grid was used to establish harmony between multiple disparate elements on the page. And it enabled me to displace Bonnie and Clyde's rather gritty life against a much more contemporary, clean backdrop.
 
 ![B**** poem spread](/images/amoratorium_booksample_03_800.jpg)
+
 The sheer scale of the book — spanning more than two feet wide when open (and a foot tall!) was also a frequent asset for conveying the vastness of rural America.
 
 ![Vinyl photo](/images/amortatorium_record_full_800.jpg)
+
 [Listen to the album on Brian Laidlaw's website >>](http://www.brianlaidlaw.com/music/)
 
 ## Credits
